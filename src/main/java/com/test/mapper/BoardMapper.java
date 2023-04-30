@@ -8,7 +8,7 @@ import java.util.List;
 @Mapper
 public interface BoardMapper {
 
-    @Select("SELECT * FROM test_board ")
+    @Select("SELECT * FROM test_board")
     List<BoardVO> findAll();
 
     @Select("SELECT * FROM test_board WHERE id = #{id}")
