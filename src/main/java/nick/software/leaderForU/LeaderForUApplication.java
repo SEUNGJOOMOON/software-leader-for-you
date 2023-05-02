@@ -7,8 +7,8 @@ import org.springframework.boot.context.ApplicationPidFileWriter;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.test")
-@MapperScan(basePackages = "com.test.mapper")
+@ComponentScan(basePackages = "nick.software")
+@MapperScan(basePackages = "nick.software")
 public class LeaderForUApplication {
 
 	public static void main(String[] args) {
